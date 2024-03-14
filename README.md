@@ -2,5 +2,5 @@
 
 React + Vite + Tailwind<br><br>
 
-![la_test_3](https://github.com/Noud63/leerhuis-amsterdam/assets/38325801/78f9c516-2864-4507-8c03-28394fb78c3e)
+![la_2](https://github.com/Noud63/lha/assets/38325801/5ca913d2-e8fc-412e-824e-2b7cb7a98f45)
 
