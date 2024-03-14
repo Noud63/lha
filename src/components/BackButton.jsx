@@ -24,7 +24,7 @@ const BackButton = (url) => {
       <Link to={path}>
         <button
           type="button"
-          className="btn w-[150px] text-black font-semibold p-2 border-2 border-black rounded-full cursor-pointer"
+          className="btn w-[150px] text-black font-semibold p-2 border-2 border-gray-400 rounded-full cursor-pointer"
         >
           Terug
         </button>

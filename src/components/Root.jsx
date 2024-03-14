@@ -7,8 +7,8 @@ import ScrollToTop from '../utils/ScrollToTop';
 const Root = () => {
   return (
     <>
-      <Activities />
       <Overons />
+      <Activities />
       <Contact />
       <ScrollToTop />
     </>

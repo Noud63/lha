@@ -21,41 +21,49 @@ const Menu = ({color, style, noHomeLink, border}) => {
         ""
       )}
 
-      <NavLink
-        to="/overonspage"
-        className={({ isActive }) => [
-          isActive ? `${border}` : "border-b-2 border-none",
-        ]}
-      >
-        <span>Over ons</span>
-      </NavLink>
+      <div className="flex justify-center">
+        <NavLink
+          to="/overonspage"
+          className={({ isActive }) => [
+            isActive ? `${border}` : "border-b-2 border-none",
+          ]}
+        >
+          <span>Over ons</span>
+        </NavLink>
+      </div>
 
-      <NavLink
-        to="/contact"
-        className={({ isActive }) => [
-          isActive ? `${border}` : "border-b-2 border-none",
-        ]}
-      >
-        <span>Contact</span>
-      </NavLink>
+      <div className="flex justify-center">
+        <NavLink
+          to="/contact"
+          className={({ isActive }) => [
+            isActive ? `${border}` : "border-b-2 border-none",
+          ]}
+        >
+          <span>Contact</span>
+        </NavLink>
+      </div>
 
-      <NavLink
-        to="/allactivities"
-        className={({ isActive }) => [
-          isActive ? `${border}` : "border-b-2 border-none",
-        ]}
-      >
-        <span>Activiteiten</span>
-      </NavLink>
+      <div className="flex justify-center">
+        <NavLink
+          to="/allactivities"
+          className={({ isActive }) => [
+            isActive ? `${border}` : "border-b-2 border-none",
+          ]}
+        >
+          <span>Activiteiten</span>
+        </NavLink>
+      </div>
 
-      <NavLink
-        to="/aktueel"
-        className={({ isActive }) => [
-          isActive ? `${border}` : "border-b-2 border-none",
-        ]}
-      >
-        <span>Aktueel</span>
-      </NavLink>
+      <div className="flex justify-center">
+        <NavLink
+          to="/aktueel"
+          className={({ isActive }) => [
+            isActive ? `${border}` : "border-b-2 border-none",
+          ]}
+        >
+          <span>Aktueel</span>
+        </NavLink>
+      </div>
     </div>
   );
 }

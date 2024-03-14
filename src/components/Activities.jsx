@@ -40,7 +40,7 @@ const Activities = () => {
 
      
 return (
-  <div className="w-[full] flex flex-row m-auto px-8 pt-[140px] text-black max-xxsm:px-4">
+  <div className="w-[full] flex flex-row m-auto px-8 text-black max-xxsm:px-4">
     <div className="w-full flex flex-1 justify-center items-center flex-col">
       <div className="w-full flex flex-row gap-2 pl-0 mb-6 border-b border-black pb-2 pt-12 max-xxsm:pt-8">
         <span className="text-2xl font-semibold pt-1 text-black">
@@ -108,11 +108,11 @@ return (
         ))}
       </div>
 
-      <div className="w-full flex justify-center mt-16 pb-8 mb-8">
+      <div className="w-full flex justify-center mt-16 pb-0 mb-8">
         <Link to="allactivities">
           <button
             type="button"
-            className="btn w-[150px] rounded-full justify-center items-center text-[#000] border-2  border-gray-400 gap-2 pb-1 leading-8 pt-1 text-md font-semibold"
+            className="btn w-[150px] rounded-full justify-center items-center text-[#000] border-2 border-neutral-400 gap-2 pb-1 leading-8 pt-1 text-md font-semibold"
           >
             Alle activiteiten
           </button>

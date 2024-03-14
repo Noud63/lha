@@ -43,7 +43,7 @@ const OveronsPage = () => {
                   <br />
                   Betekenis vinden, op ideeën komen, door ontmoeting en
                   dialoog. Daar draait het om. En mogelijk heb je er ook wat
-                  aan in gesprekken met vrienden, familie tijdens je werk, bij
+                  aan in gesprekken met vrienden, familie, tijdens je werk, bij
                   je morele en politieke keuzes of in je geloofsgemeenschap.
                   Zo'n zinvolle doorwerking van wat we met en van elkaar leren
                   zou mooi zijn!

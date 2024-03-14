@@ -9,10 +9,11 @@ import linkedin from "../assets/icons/linkedin_gray.png"
 
 const Footer = () => {
 
-  const style = "flex flex-col max-footer:flex-row max-xsm:gap-6 max-xxxsm:font-normal text-base";
+  const style =
+    "flex flex-col max-footer:flex-row max-xsm:gap-6 max-xxxsm:font-normal text-base max-xxxsm:grid grid-cols-2 max-xxxsm:gap-3";
 
   return (
-    <div className="w-full h-[600px] bg-stone-900 flex flex-row justify-around items-center relative pb-40 pt-20 max-footer:flex-col max-footer:pt-16">
+    <div className="w-full h-[600px] bg-stone-900 flex flex-row justify-around items-center relative pb-40 pt-20 max-footer:flex-col max-footer:pt-16 max-xxxsm:h-[650px]">
       <div className="h-full flex-1 flex items-center justify-center max-footer:py-8">
         <Menu
           color="white"

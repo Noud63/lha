@@ -123,7 +123,7 @@ useEffect(()=> {
               </div>
 
               <Link
-                to={`/subscribe/${id}`}
+                to="/contact"
                 className="w-full flex justify-center mt-6 mb-4"
               >
                 <button
