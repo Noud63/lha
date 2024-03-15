@@ -9,9 +9,9 @@ const Overons = () => {
       <div className="w-full">
         <div className="overons flex flex-col ">
           <div className="w-full flex flex-row justify-between text-black font-normal rounded-lg z-5 max-lg:flex-col ">
-            <div className="flex flex-1 flex-col justify-center items-center leading-2 pb-8 text-lg max-lg:w-full">
-              <div className="w-full flex justify-between border-b border-black mb-8">
-                <span className="flex text-black text-2xl font-semibold pb-4">
+            <div className="flex flex-1 flex-col justify-center items-center leading-2 pb-4 text-lg max-lg:w-full">
+              <div className="w-full flex justify-between border-b border-black mb-4">
+                <span className="flex text-black text-2xl font-semibold pb-2">
                   # Over het Leerhuis
                 </span>
               </div>
@@ -50,7 +50,7 @@ const Overons = () => {
               >
                 <button
                   type="button"
-                  className="btn w-[150px] rounded-full justify-center items-center text-black border-2 border-neutral-400 gap-2 pb-1 leading-8 pt-1 font-semibold"
+                  className="btn w-[150px] rounded-full justify-center bg-white/50 items-center text-black border-2 border-neutral-400 gap-2 pb-1 leading-8 pt-1 font-semibold"
                 >
                   Lees meer
                 </button>

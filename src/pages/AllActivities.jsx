@@ -30,7 +30,7 @@ const AllActivities = () => {
         <div className="w-[85%] grid grid-cols-4 max-xxxl:grid-cols-3 max-xl:grid-cols-2 max-xmd:grid-cols-1 gap-8 ">
           {data?.map((act) => (
             <div className="w-full min-h-full rounded-2xl" key={act.id}>
-              <div className="calendar_item w-full h-full bg-gray-100/60 rounded-xl flex flex-col justify-between relative">
+              <div className="calendar_item w-full h-full bg-gradient-to-t from-neutral-300 to-white rounded-xl flex flex-col justify-between relative">
                 <div className="p-4">
                   <span className="border-b border-black flex justify-between font-bold text-xl pb-2">
                     {act.title}
@@ -63,7 +63,6 @@ const AllActivities = () => {
 
                 <Link
                   to={`calendaritem/${act.id}`}
-                  
                   className="w-full flex justify-center items-center absolute bottom-0 z-10 bg-black/50 py-4 rounded-b-lg"
                 >
                   <button

@@ -59,7 +59,7 @@ return (
       >
         {data?.slice(0, slice).map((act) => (
           <div className="w-full min-h-full rounded-2xl" key={act.id}>
-            <div className="calendar_item w-full h-full bg-white rounded-xl flex flex-col justify-between relative">
+            <div className="calendar_item w-full h-full bg-gradient-to-t from-stone-300 to-white rounded-xl flex flex-col justify-between relative">
               <div className="p-4">
                 <span className="border-b border-black flex justify-between font-bold text-xl pb-2">
                   {act.title}
